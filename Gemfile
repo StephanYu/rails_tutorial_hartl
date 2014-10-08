@@ -44,3 +44,5 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'minitest-reporters', '1.0.5', group: :test
+
