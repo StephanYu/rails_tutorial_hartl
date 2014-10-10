@@ -46,3 +46,6 @@ end
 
 gem 'minitest-reporters', '1.0.5', group: :test
 
+group :production do
+  gem 'unicorn',        '4.8.3'
+end
